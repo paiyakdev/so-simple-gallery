@@ -307,7 +307,7 @@ function sosg_shortcode( $atts ) {
 	
 	?>
 		
-	<dt><img src="<?php echo $sosg_thumb; ?>" alt="<?php echo $sosg_image['alt']; ?>" width="75" height="75" /></dt><dd class="sosg-image-<?php echo $i; ?>"><img src="<?php echo $sosg_big[0]; ?>" alt="<?php echo $sosg_image['alt']; ?>" width="<?php echo $sosg_big[1]; ?>" height="<?php echo $sosg_big[2]; ?>" /><span class="sosg-image-title"><?php echo $sosg_image['title']; ?></span></dd>
+	<dt tabindex="0"><img src="<?php echo $sosg_thumb; ?>" alt="<?php echo $sosg_image['alt']; ?>" width="75" height="75" /></dt><dd class="sosg-image-<?php echo $i; ?>"><img src="<?php echo $sosg_big[0]; ?>" alt="<?php echo $sosg_image['alt']; ?>" width="<?php echo $sosg_big[1]; ?>" height="<?php echo $sosg_big[2]; ?>" /><span class="sosg-image-title"><?php echo $sosg_image['title']; ?></span></dd>
 	    
 	<?php } // endforeach
 	

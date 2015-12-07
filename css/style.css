@@ -68,3 +68,7 @@ dl#sosg dt:hover+dd.sosg-image-1 .sosg-image-title,
 dl#sosg dt:focus+dd.sosg-image-1 .sosg-image-title { 
 	opacity:1;
 }
+
+dl#sosg dt:hover ~ dt:focus+dd {
+	opacity: 0;
+}
